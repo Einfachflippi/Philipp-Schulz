@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine Persönliche Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f4f4f4;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #666;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    section {
+      margin: 40px 0;
+    }
+    h2 {
+      color: #222;
+      margin-bottom: 15px;
+    }
+    .social-links a {
+      margin-right: 20px;
+      font-size: 1.2em;
+      color: #333;
+    }
+    .shop-item {
+      background: white;
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    .shop-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .shop-item button {
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #28a745;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Willkommen auf meiner Website!</h1>
+    <p>Schön, dass du da bist.</p>
+  </header>
+
+  <nav>
+    <a href="#about">Über mich</a>
+    <a href="#social">Social Media</a>
+    <a href="#shop">Shop</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>Über mich</h2>
+      <p>Hey! Ich bin [Philipp], und ich liebe es, kreativ zu sein. Ob auf YouTube, Instagram oder in meinem kleinen Online-Shop – ich teile gerne, was ich mache. Auf dieser Seite findest du mehr über mich und meine Projekte.</p>
+    </section>
+
+    <section id="social">
+      <h2>Folge mir</h2>
+      <div class="social-links">
+        <a href="https://www.youtube.com/@dein-kanal" target="_blank">YouTube</a>
+        <a href="https://www.instagram.com/dein-instagram" target="_blank">Instagram</a>
+      </div>
+    </section>
+
+    <section id="shop">
+      <h2>Mein Shop</h2>
+      <div class="shop-item">
+        <img src="https://via.placeholder.com/400x200" alt="Produkt 1">
+        <h3>Produkt 1</h3>
+        <p>Beschreibung zu Produkt 1. Hochwertig und mit Liebe gemacht.</p>
+        <button onclick="alert('Kaufbutton – integriere hier deinen echten Shop-Link!')">Jetzt kaufen</button>
+      </div>
+      <div class="shop-item">
+        <img src="https://via.placeholder.com/400x200" alt="Produkt 2">
+        <h3>Produkt 2</h3>
+        <p>Beschreibung zu Produkt 2. Noch besser als das erste!</p>
+        <button onclick="alert('Kaufbutton – integriere hier deinen echten Shop-Link!')">Jetzt kaufen</button>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <p>Du möchtest mir schreiben? Dann schick mir einfach eine Mail an <Philipp.schulz2206@gmail.com</strong></p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 einfachflippi | Alle Rechte vorbehalten
+  </footer>
+
+</body>
+</html>
